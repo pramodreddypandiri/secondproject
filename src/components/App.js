@@ -1,8 +1,9 @@
 import './App.css';
-
+import Counter from './counter';
 
 
 function App(){
-    return(<p className='title'>Hello Vijaya</p>)
+    return(
+    <Counter/>)
 }
 export default App;
