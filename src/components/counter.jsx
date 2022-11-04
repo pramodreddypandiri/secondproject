@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 function Counter() {
-    const [count, setCount] = useState()
+    const [count, setCount] = useState(0)
   return (
     <>
       <div style={{color:'#4503fc'}}>Counter - {count}</div>
